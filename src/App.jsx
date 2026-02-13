@@ -31,15 +31,12 @@ import { initAllScripts } from './utils/script'
 
 function App() {
     useEffect(() => {
-        // Initialize all scripts
         initAllScripts()
 
-        // Add loaded class for animations
         setTimeout(() => {
             document.body.classList.add('loaded')
         }, 100)
 
-        // Cleanup
         return () => {
             document.body.classList.remove('loaded')
         }
