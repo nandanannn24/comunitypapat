@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 
-// Import Components
 import Header from './components/Header'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -14,7 +13,6 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import FloatingContact from './components/FloatingContact'
 
-// Import CSS per Component
 import './components/Header.css'
 import './components/Hero.css'
 import './components/About.css'
@@ -28,7 +26,7 @@ import './components/Contact.css'
 import './components/Footer.css'
 import './components/FloatingContact.css'
 
-// Import Utilities
+
 import { initAllScripts } from './utils/script'
 
 function App() {
